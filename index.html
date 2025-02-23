@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Account registration page</title>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Welcome to Jurassic World</h1>
+        <main>
+        <form action = "thanhnhan3222@gmail.com"  method="POST">
+            <fieldset class="personal-info">
+                <label for="First-name">First Name:</label>
+                <input type="text" id="First-name" required/>
+                <label for="Last-name">Last Name:</label>
+                <input type="text" id="Last-name" required/>
+                <label for="email">Email:</label>
+                <input type="email" id="email" required/>
+                <label for="password">Password:</label>
+                <input type="password" id="password" required/>    
+            </fieldset>
+            <fieldset>
+                <legend>What is your Gender? (Required)</legend> 
+                <label><input type ="Radio" name="male-or-female" class="gender" checked/>Male</label>
+                <label><input type="Radio" name="male-or-female"  class="gender"/>Female</label>
+                <label><input type="Radio" name="male-or-female" class="gender"/>Other</label>
+            </fieldset>
+            <fieldset>
+                <legend>From which platform did you learn about our website?</legend>
+                <label><input name="platform" type="Radio" class="platform" checked/>Facebook</label>
+                <label><input name="platform" type="Radio" class="platform"/>Instagram</label>
+                <label><input name="platform" type="Radio" class="platform"/>Tiktok</label>
+                <label><input name="platform" type="Radio" class="platform"/>Other</label>
+            </fieldset>
+            <fieldset>
+                <label><input type="checkbox" name="term-conditions" class="term-conditions" required>I have read and agree with all the <a href="concu.com">terms and contitions</a> </label>
+            </fieldset>
+
+        </form>
+        <div class="submit-button ">
+        <input type ="submit" value = "Register"/> 
+        </div>
+        </main>
+
+    </body>
+
+</html>
